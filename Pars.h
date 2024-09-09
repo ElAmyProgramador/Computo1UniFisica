@@ -51,8 +51,6 @@ int Factorial(int n) {
 float Min(float a, float b) {
     if (a < b) {
         return a;
-    } else if (a == b) {
-        return "Son iguales";
     } else {
         return b;
     }
@@ -68,6 +66,20 @@ float Max(float a, float b) {
 
 float Doblar(float a) {
     return (a * 2);
+}
+
+int Cuadrar(int a) {
+    return (a * a);
+}
+
+int Exponente(int a, int b) {
+    if (b == 2) {
+        return Cuadrar(a);
+    } else if (b == 0) {
+        return 1;
+    } else {
+        return a * Exponente(a, b - 1);
+    }
 }
 
 //funciones de arreglos
