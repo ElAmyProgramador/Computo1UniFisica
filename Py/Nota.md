@@ -78,3 +78,5 @@ Para el curso nos pidieron instalar pytho y algunas lbrerias que usaremos (segú
 done! ✨ 🌟 ✨
 
 No se de donde salieron los emojis pero bueno :v
+Me está dando problemas, entonces tendré que crear un entorno virtual
+rouche, determinants y deifnicion 
